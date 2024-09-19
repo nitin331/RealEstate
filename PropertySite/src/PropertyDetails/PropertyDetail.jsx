@@ -105,12 +105,12 @@ const properties = [
       email: 'vidhyajoshi@gmail.com',
     },
     images: [
-      '/images/10.png',
-      '/images/11.png',
-      '/images/9.png',
-      '/images/10.png',
-      '/images/11.png',
-      '/images/9.png',
+      '/images/1.png',
+      '/images/2.png',
+      '/images/3.png',
+      '/images/4.png',
+      '/images/1.png',
+      '/images/2.png',
     ],
     features: {
       bedrooms: 3,
@@ -135,8 +135,13 @@ const properties = [
       email: 'hemant@gmail.com',
     },
     images: [
-      '/images/12.png',
-      '/images/13.png',
+     
+      '/images/5.png',
+      '/images/6.png',
+      '/images/7.png',
+      '/images/5.png',
+      '/images/6.png',
+      '/images/7.png',
     ],
     features: {
       bedrooms: 2,
@@ -161,8 +166,12 @@ const properties = [
       email: 'vishwas@gmail.com',
     },
     images: [
-      '/images/14.png',
-      '/images/15.png',
+      '/images/5.png',
+      '/images/6.png',
+      '/images/7.png',
+      '/images/5.png',
+      '/images/6.png',
+      '/images/7.png',
     ],
     features: {
       bedrooms: 2,
@@ -187,8 +196,12 @@ const properties = [
       email: 'dipak@gmail.com',
     },
     images: [
-      '/images/16.png',
-      '/images/17.png',
+      '/images/1.png',
+      '/images/2.png',
+      '/images/3.png',
+      '/images/4.png',
+      '/images/1.png',
+      '/images/2.png',
     ],
     features: {
       bedrooms: 2,
@@ -213,8 +226,13 @@ const properties = [
       email: 'swatisharma@gmail.com',
     },
     images: [
-      '/images/18.png',
-      '/images/19.png',
+      
+      '/images/5.png',
+      '/images/6.png',
+      '/images/7.png',
+      '/images/5.png',
+      '/images/6.png',
+      '/images/7.png',
     ],
     features: {
       bedrooms: 2,
@@ -239,8 +257,13 @@ const properties = [
       email: 'devikashah@gmail.com',
     },
     images: [
-      '/images/20.png',
-      '/images/21.png',
+      '/images/1.png',
+      '/images/2.png',
+      '/images/3.png',
+      '/images/4.png',
+      '/images/1.png',
+      '/images/2.png',
+      
     ],
     features: {
       bedrooms: 2,
@@ -254,7 +277,96 @@ const properties = [
     description:
       'A lovely 2 BHK in the heart of Wakad, with greenery all around and modern amenities.',
   },
-  // ... Your property data as defined
+  {
+    id: 10,
+    price: '₹32,000 per month',
+    title: 'Paranjape Blue Ridge',
+    location: 'Wakad, Pune, Maharashtra',
+    agent: { 
+      name: 'Anil Pore',
+      phone: '9075326868',
+      email: 'anilpore@gmail.com',
+    },
+    images: [
+      '/images/1.png',
+      '/images/2.png',
+      '/images/3.png',
+      '/images/4.png',
+      '/images/1.png',
+      '/images/2.png',
+    ],
+    features: {
+      bedrooms: 2,
+      bathrooms: 2,
+      parking: 2,
+      lifts: 2,
+      petFriendly: true,
+      sqft: 1300,
+      balconies: 2,
+    },
+    description:
+      '3 BHK flat is available for rent with a modular kitchen on an immediate basis. For more discussion and visit kindly call us.',
+  },
+  {
+    id: 11,
+    price: '₹36,000 per month',
+    title: 'The Willows of Palolem',
+    location: 'Paliwada, Pune, Maharashtra',
+    agent: {
+      name: 'Ajit Kumar',
+      phone: '9087654321',
+      email: 'ajitkumar@gmail.com',
+    },
+    images: [
+      '/images/5.png',
+      '/images/6.png',
+      '/images/7.png',
+      '/images/5.png',
+      '/images/6.png',
+      '/images/7.png',
+    ],
+    features: {
+      bedrooms: 3,
+      bathrooms: 3,
+      parking: 1,
+      lifts: 1,
+      petFriendly: true,
+      sqft: 1500,
+      balconies: 3,
+    },
+    description:
+      'Luxury 3 BHK flat for rent. Immediate availability. Contact for further information.',
+  },
+  {
+    id: 12,
+    price: '₹26,000 per month',
+    title: '1BHK SKYi Songbirds',
+    location: 'Opposite Symbiosis College, Pune',
+    agent: {
+      name: 'Vishal Pandit',
+      phone: '9054321789',
+      email: 'vishalpandit@gmail.com',
+    },
+    images: [
+      '/images/8.png',
+      '/images/9.png',
+      '/images/5.png',
+      '/images/6.png',
+      '/images/9.png',
+      '/images/7.png',
+    ],
+    features: {
+      bedrooms: 1,
+      bathrooms: 1,
+      parking: 1,
+      lifts: 1,
+      petFriendly: false,
+      sqft: 700,
+      balconies: 1,
+    },
+    description:
+      '1BHK flat available in prime location with all basic amenities and security.',
+  },
 ];
 
 const PropertyDetail = () => {
